@@ -1,0 +1,16 @@
+n=int(input())
+a,b=0,1
+if n<=0:
+    print("provide positivenumber")
+elif n==1:
+    print(0)
+else:
+    print(a,b)
+    for i in range(n-2):
+        c=a+b
+        print(c)
+        a=b
+        b=c
+    
+        
+    
