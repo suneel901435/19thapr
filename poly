@@ -1,0 +1,12 @@
+#program for polyndrome
+n=int(input())
+temp=n
+num=0
+while n>0:
+  r=n%10
+  num=num*10+r
+  n=n//10 or n=trunc(n/10)
+if num==temp:
+  print("polyndrome")
+else:
+  print("not a polyndrome")
