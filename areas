@@ -1,0 +1,19 @@
+print("find the areas of below only")
+print("1.traingle")
+print("2.square")
+print("3.rectangle")
+choice=int(input("Enter 1 or 2 or 3"))
+if choice==1:
+  base=int(input())
+  height=int(input())
+  print(0.5*base*height)
+elif choice==2:
+  side=int(input())
+  print(side*side)
+elif choice==3:
+  length=int(input())
+  breadth=int(input())
+  print(length*braedth)
+else:
+  print("invalid choice")
+ 
